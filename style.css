@@ -13,13 +13,13 @@ html {
 body {
     font-family: "Inter", sans-serif;
     height: 100vh;
-    background: linear-gradient(to right, #141414, #1f1f1f, #333333);
+    background: linear-gradient(to right, #242424, #151515, #333333);
     color: #FFF;
     position: relative;
 }
 
 .profile-card {
-    width: 350px;
+    width: 400px;
     padding: 20px;
     border-radius: 10px;
     background-color: #1f1f1f;
@@ -45,14 +45,14 @@ body {
 .profile-name {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .profile-location {
     font-size: 1rem;
     font-weight: 700;
-    margin-bottom: 30px;
-    color: #C5F82A;
+    margin-bottom: 20px;
+    color: #1146f3;
 }
 
 .profile-bio {
@@ -83,6 +83,6 @@ body {
 }
 
 .link-item:hover {
-    background-color: #C5F82A;
-    color: #1f1f1f;
+    background-color: #024899;
+    color: #FFF;
 }
