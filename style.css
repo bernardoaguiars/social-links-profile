@@ -71,11 +71,12 @@ body {
     border-radius: 5px;
     margin-bottom: 15px;
     cursor: pointer;
-    padding:  15px 0;
     transition: all 0.3s ease-in;
 }
 
 .link-item a {
+    display: block;
+    padding:  15px 0;
     color: inherit;
     font-weight: 600;
     text-decoration: none;
